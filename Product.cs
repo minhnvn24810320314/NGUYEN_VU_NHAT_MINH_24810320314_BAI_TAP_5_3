@@ -1,0 +1,22 @@
+﻿namespace NGUYEN_VU_NHAT_MINH_24810320314_BAI_TAP_5_3
+{
+    public class Product
+    {
+        public string ProductId { get; set; }
+        public string ProductName { get; set; }
+        public double UnitPrice { get; set; }
+        public int Quantity { get; set; }
+        public string Category { get; set; }
+
+        public Product() { }
+
+        public Product(string id, string name, double price, int qty, string category)
+        {
+            ProductId = id;
+            ProductName = name;
+            UnitPrice = price;
+            Quantity = qty;
+            Category = category;
+        }
+    }
+}
